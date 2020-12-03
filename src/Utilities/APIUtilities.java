@@ -19,6 +19,6 @@ public class APIUtilities {
                 .header("x-rapidapi-host", "jikan1.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
-        HttpResponse<Path> response = client.send(request, HttpResponse.BodyHandlers.ofFile(Paths.get("animeSearch.json")));
+        HttpResponse<Path> response = client.send(request, HttpResponse.BodyHandlers.ofFile(Paths.get("./JSONFiles/animeSearch.json")));
     }
 }

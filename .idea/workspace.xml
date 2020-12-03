@@ -85,6 +85,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -92,6 +93,9 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -109,6 +113,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mitch\Downloads\Assignment2-AdvancedJava\src\JSONFiles" />
       <recent name="C:\Users\mitch\Downloads\Assignment2-AdvancedJava\src\Views" />
       <recent name="C:\Users\mitch\Downloads\Assignment2-AdvancedJava\src" />
     </key>
@@ -221,6 +226,8 @@
       <workItem from="1606703348237" duration="2000000" />
       <workItem from="1606705427523" duration="2933000" />
       <workItem from="1606937949812" duration="8165000" />
+      <workItem from="1606972266709" duration="740000" />
+      <workItem from="1607018861060" duration="2539000" />
     </task>
     <servers />
   </component>
@@ -244,10 +251,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606954447757" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1606704068514">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1607030584074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606704068514" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607030584074" />
     <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606954446189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,22 +267,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="413" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606706468213" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1606969622210">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1607019711986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606969622210" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1606969622210">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607019711986" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1607019711986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606969622210" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1606969622210">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607019711986" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1607019711986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606969622210" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1606969622210">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607019711986" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1607019711986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606969622210" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607019711986" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606705350146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -292,14 +299,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606705350146" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1606705349389">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1607019976897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606705349389" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607019976897" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606708177239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606708177239" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607019967948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607019967948" />
     <state x="342" y="222" key="new project wizard" timestamp="1606941516522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
