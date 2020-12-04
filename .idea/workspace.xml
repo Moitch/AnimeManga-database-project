@@ -56,6 +56,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -94,6 +95,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Assignment1-AdvancedJava" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -222,7 +224,7 @@
       <workItem from="1606705427523" duration="2933000" />
       <workItem from="1606937949812" duration="8165000" />
       <workItem from="1606972266709" duration="740000" />
-      <workItem from="1607018861060" duration="8802000" />
+      <workItem from="1607018861060" duration="16830000" />
     </task>
     <servers />
   </component>
@@ -250,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606954447757" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1607032605385">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1607048602180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607032605385" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607048602180" />
     <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606954446189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,30 +264,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="875" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607032147360" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607035794764">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607052407803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607035794764" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607052407803" />
     <state x="790" y="413" key="Github.ShareDialog" timestamp="1606706468213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="413" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606706468213" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1607035846755">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1607063294119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607035846755" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1607035846754">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607063294119" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1607063294119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607035846754" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1607035846754">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607063294119" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1607063294119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607035846754" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1607035846755">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607063294119" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1607063294119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607035846755" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1607063294119" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607035392911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,16 +324,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="222" key="new project wizard/0.0.1920.1040/-1920.0.1536.824/1920.4.1920.1040@0.0.1920.1040" timestamp="1606941516522" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

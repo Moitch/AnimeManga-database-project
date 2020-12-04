@@ -1,0 +1,22 @@
+.root
+{
+    -fx-background-color: #bdbdbd;
+    -fx-font-size: 14pt;
+}
+
+#header{
+    -fx-font-size: 30pt;
+    -fx-font-fill: #546e7a;
+}
+
+.button{
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: #8d8d8d;
+    -fx-border-radius: 6px;
+}
+.button:hover{
+    -fx-background-color: #8d8d8d;
+    -fx-border-radius: 6px;
+}

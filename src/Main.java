@@ -12,17 +12,6 @@ import java.util.ArrayList;
 
 public class Main extends Application {
     public static void main(String[] args) {
-//        ArrayList<AnimeInfo> animes = new ArrayList<>();
-//       try {
-//           APIUtilities.getAnimeFromSearch("Attack On Titan");
-//           animes = JSONFileUtility.getAnimeList("./src/JSONFiles/animeSearch.json");
-//       } catch (IOException e){
-//           e.printStackTrace();
-//       } catch (InterruptedException e){
-//           e.printStackTrace();
-//       }
-//       System.out.println();
-
         launch(args);
     }
 

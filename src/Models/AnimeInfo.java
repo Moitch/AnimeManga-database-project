@@ -181,4 +181,7 @@ public class AnimeInfo {
     public void setAiring(boolean airing) {
         this.airing = airing;
     }
+    public String toString(){
+        return String.format("%s, has a score of %.2f", this.title, this.score);
+    }
 }
