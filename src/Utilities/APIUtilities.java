@@ -1,3 +1,15 @@
+/**
+ * Mitchell Foley
+ * December 4th, 2020
+ *
+ * APIUtilities.java
+ *
+ * This class is whats used to search the api and return the query.
+ * It returns it into a file called animeSearch.json and is in the
+ * JSONFiles folder.
+ *
+ * This class holds all the key info about the api.
+ */
 package Utilities;
 
 import java.io.IOException;

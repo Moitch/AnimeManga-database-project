@@ -1,14 +1,19 @@
-import Models.AnimeInfo;
-import Utilities.APIUtilities;
-import Utilities.JSONFileUtility;
+/**
+ * Mitchell Foley
+ * Dec 4th, 2020
+ *
+ * Main.java
+ *
+ * This just launches the JavaFX program and adds an icon to the scene.
+ */
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-import java.util.ArrayList;
 
 public class Main extends Application {
     public static void main(String[] args) {
@@ -19,6 +24,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Views/AnimeLookup.fxml"));
         Scene scene = new Scene(root);
+
+        Image Icon = new Image("searchIcon.png");
+        primaryStage.getIcons().add(Icon);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Anime Lookup");
         primaryStage.show();

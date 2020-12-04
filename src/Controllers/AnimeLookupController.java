@@ -1,3 +1,23 @@
+/**
+ * Mitchell Foley
+ * December 4th, 2020
+ *
+ * AnimeLookupController.java
+ *
+ * In the initialize method, a event listener is created for the listView.
+ * This is used to display the updated image every time the user changes
+ * the anime selection. (It also enables the view details button).
+ *
+ * updateLabels() is just a small function that returns how many animes
+ * were grabbed from the search. (capped at 50).
+ *
+ * getAnimes() is the method that populates the listView. It takes all the values
+ * from the JSON file and turns them into AnimeInfo objects so they can be read
+ * as a normal string.
+ *
+ * changeToDetailedView() is the method that is used to change scenes to the
+ * more detailed view of the anime that is selected.
+ */
 package Controllers;
 
 import Models.AnimeInfo;
@@ -85,6 +105,7 @@ public class AnimeLookupController implements Initializable {
 
             Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
+            window.setTitle("Anime Detailed View");
             window.setScene(animeDetailsScene);
             window.show();
 

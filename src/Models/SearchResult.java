@@ -1,3 +1,9 @@
+/**
+ * Mitchell Foley
+ * December 4th, 2020
+ *
+ * SearchResult.java
+ */
 package Models;
 
 import com.google.gson.annotations.SerializedName;

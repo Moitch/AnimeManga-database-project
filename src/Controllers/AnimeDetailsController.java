@@ -1,3 +1,18 @@
+/**
+ * Mitchell Foley
+ * December 4th, 2020
+ *
+ * AnimeDetailsController.java
+ *
+ * Takes the selected anime from AnimeLookup and then uses it to create an
+ * interface that displays the information on the anime.
+ *
+ * loadDetailedView() is the function that sets all the labels to
+ * the animes values, as well loads the image into an ImageView.
+ *
+ * changeToLookupView() is a method that changes scenes. It changes the scene
+ * back to the AnimeLookup.fxml view.
+ */
 package Controllers;
 
 import Models.AnimeInfo;
@@ -80,6 +95,7 @@ public class AnimeDetailsController implements Initializable {
 
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
+        window.setTitle("Anime Lookup");
         window.setScene(animeLookupScene);
         window.show();
     }

@@ -1,3 +1,14 @@
+/**
+ * Mitchell Foley
+ * December 4th, 2020
+ *
+ * AnimeInfo.java - Model Class
+ *
+ * The AnimeInfo class is used to convert the JSON file grabbed
+ * from the API into a object so you can work with the data.
+ *
+ * All of the methods are getters and setters except the toString().
+ */
 package Models;
 
 import com.google.gson.annotations.SerializedName;

@@ -1,3 +1,14 @@
+/**
+ * Mitchell Foley
+ * December 4th, 2020
+ *
+ * APIUtilities.java
+ *
+ * getAnimeList(), This method will return an ArrayList of AnimeInfo objects
+ * derived from the specified JSON File.
+ *
+ * It reads the JSON file and adds them to the ArrayList called animes.
+ */
 package Utilities;
 
 import Models.AnimeInfo;
@@ -11,10 +22,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class JSONFileUtility {
-    /**
-     * This method will return an ArrayList of AnimeInfo objects
-     * derived from the specified JSON File.
-     */
+
     public static ArrayList<AnimeInfo> getAnimeList(String jsonFileName){
         ArrayList<AnimeInfo> animes = new ArrayList<>();
         Gson gson = new Gson();
