@@ -3,15 +3,22 @@ package Controllers;
 import Models.AnimeInfo;
 import Utilities.APIUtilities;
 import Utilities.JSONFileUtility;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.stage.Stage;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -32,12 +39,18 @@ public class AnimeLookupController implements Initializable {
     private Button animeInfo_button;
 
     @FXML
+    private Button viewDetails_button;
+
+    @FXML
     private ImageView anime_imageView;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+
         anime_listView.getSelectionModel().selectedItemProperty().addListener((obs, oldValue, animeSelected) -> {
             anime_imageView.setImage(new Image(animeSelected.getImage_url()));
+            viewDetails_button.setDisable(false);
         });
         updateLabels();
     }
@@ -59,5 +72,24 @@ public class AnimeLookupController implements Initializable {
             e.printStackTrace();
         }
         updateLabels();
+    }
+
+    public void changeToDetailedView(ActionEvent event) throws IOException {
+
+
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/Views/AnimeDetails.fxml"));
+            Parent animeDetailsParent = loader.load();
+
+            Scene animeDetailsScene = new Scene(animeDetailsParent);
+
+            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+            window.setScene(animeDetailsScene);
+            window.show();
+
+            AnimeDetailsController controller = loader.getController();
+            controller.initData(anime_listView.getSelectionModel().getSelectedItem());
+
     }
 }

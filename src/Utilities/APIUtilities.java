@@ -23,6 +23,6 @@ public class APIUtilities {
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
         HttpResponse<Path> response = client.send(request, HttpResponse.BodyHandlers.ofFile(Paths.get("./src/JSONFiles/animeSearch.json")));
-        System.out.println(newSearchText);
+        //System.out.println(newSearchText);
     }
 }

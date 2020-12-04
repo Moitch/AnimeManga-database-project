@@ -17,7 +17,7 @@
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#29434e" height="17.0" stroke="TRANSPARENT" strokeType="INSIDE" width="870.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#546e7a" height="62.0" layoutY="16.0" stroke="TRANSPARENT" strokeType="INSIDE" width="870.0" />
-      <VBox layoutX="14.0" layoutY="8.0" prefHeight="509.0" prefWidth="815.0">
+      <VBox layoutX="28.0" layoutY="4.0" prefHeight="509.0" prefWidth="815.0">
          <children>
             <StackPane>
                <children>
@@ -40,7 +40,7 @@
                         <Insets left="20.0" />
                      </HBox.margin>
                   </TextField>
-                  <Button id="btn1" fx:id="animeInfo_button" mnemonicParsing="false" onAction="#getAnimes" prefHeight="47.0" prefWidth="163.0" text="Get Anime Info">
+                  <Button id="btn1" fx:id="animeInfo_button" mnemonicParsing="false" onAction="#getAnimes" prefHeight="47.0" prefWidth="163.0" stylesheets="@styles.css" text="Get Anime Info">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
@@ -55,19 +55,23 @@
                         <Label fx:id="animesFound_label" prefHeight="48.0" prefWidth="199.0" text="Animes returned: " />
                      </children>
                   </VBox>
-                  <VBox prefHeight="432.0" prefWidth="185.0">
+                  <VBox prefHeight="380.0" prefWidth="208.0">
                      <children>
-                        <Label alignment="CENTER" prefHeight="91.0" prefWidth="185.0" text="Click on an Anime to see the details" textOverrun="CLIP" wrapText="true">
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#29434e" height="247.0" stroke="#ffffff00" strokeType="INSIDE" width="183.0" />
+                              <ImageView fx:id="anime_imageView" fitHeight="235.0" fitWidth="193.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </StackPane>
+                        <Button id="btn1" fx:id="viewDetails_button" alignment="CENTER" disable="true" mnemonicParsing="false" onAction="#changeToDetailedView" prefHeight="47.0" prefWidth="163.0" stylesheets="@styles.css" text="View Details" textAlignment="CENTER">
                            <VBox.margin>
-                              <Insets left="23.0" right="25.0" />
+                              <Insets left="22.0" top="20.0" />
                            </VBox.margin>
-                        </Label>
-                        <ImageView fx:id="anime_imageView" fitHeight="249.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
-                           <VBox.margin>
-                              <Insets left="23.0" right="25.0" />
-                           </VBox.margin>
-                        </ImageView>
+                        </Button>
                      </children>
+                     <HBox.margin>
+                        <Insets left="35.0" />
+                     </HBox.margin>
                   </VBox>
                </children>
             </HBox>

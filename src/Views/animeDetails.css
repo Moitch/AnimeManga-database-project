@@ -15,12 +15,8 @@
     -fx-border-style: solid;
     -fx-border-color: #494949;
     -fx-border-radius: 6px;
-    -fx-text-fill: black;
 }
 .button:hover{
     -fx-background-color: #494949;
     -fx-border-radius: 6px;
-    -fx-text-fill: white;
-
 }
-
