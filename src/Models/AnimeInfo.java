@@ -3,55 +3,86 @@ package Models;
 import com.google.gson.annotations.SerializedName;
 
 public class AnimeInfo {
+    /*
+    SerializedName wouldn't work for me, If you just point of what i did wrong with
+    one look then I would like to know but if not don't worry about it.
+     */
+    /*@SerializedName("ID")
+    private int mal_id;
 
-    private double mal_id;
     @SerializedName("Score")
     private double score;
-    @SerializedName("Members")
-    private double members;
-    @SerializedName("Episodes")
-    private double episodes;
 
+    @SerializedName("Members")
+    private int members;
+
+    @SerializedName("Episodes")
+    private int episodes;
+
+    @SerializedName("URL")
     private String url;
+
     @SerializedName("Poster")
     private String image_url;
+
     @SerializedName("Title")
     private String title;
+
     @SerializedName("Synopsis")
     private String synopsis;
+
     @SerializedName("Type")
     private String type;
+
     @SerializedName("Start date")
     private String start_date;
+
     @SerializedName("End date")
     private String end_date;
+
     @SerializedName("Rated")
     private String rated;
 
     @SerializedName("Airing")
+    private boolean airing;*/
+
+    private int mal_id;
+    private double score;
+    private int members;
+    private int episodes;
+
+    private String url;
+    private String image_url;
+    private String title;
+    private String synopsis;
+    private String type;
+    private String start_date;
+    private String end_date;
+    private String rated;
+
     private boolean airing;
 
-    public AnimeInfo(double mal_id, double score, double members, double episodes, String url, String image_url, String title, String synopsis, String type, String start_date, String end_date, String rated, boolean airing) {
+    public AnimeInfo(int mal_id, double score, int members, int episodes, String url, String image_url, String title, String synopsis, String type, String start_date, String end_date, String rated, boolean airing) {
         setMal_id(mal_id);
         setScore(score);
         setMembers(members);
         setEpisodes(episodes);
-        setURL(url);
-        setImageURL(image_url);
+        setUrl(url);
+        setImage_url(image_url);
         setTitle(title);
         setSynopsis(synopsis);
         setType(type);
-        setStartDate(start_date);
-        setEndDate(end_date);
+        setStart_date(start_date);
+        setEnd_date(end_date);
         setRated(rated);
         setAiring(airing);
     }
 
-    public double getMal_id() {
+    public int getMal_id() {
         return mal_id;
     }
 
-    public void setMal_id(double mal_id) {
+    public void setMal_id(int mal_id) {
         this.mal_id = mal_id;
     }
 
@@ -63,35 +94,35 @@ public class AnimeInfo {
         this.score = score;
     }
 
-    public double getMembers() {
+    public int getMembers() {
         return members;
     }
 
-    public void setMembers(double members) {
+    public void setMembers(int members) {
         this.members = members;
     }
 
-    public double getEpisodes() {
+    public int getEpisodes() {
         return episodes;
     }
 
-    public void setEpisodes(double episodes) {
+    public void setEpisodes(int episodes) {
         this.episodes = episodes;
     }
 
-    public String getURL() {
+    public String getUrl() {
         return url;
     }
 
-    public void setURL(String url) {
+    public void setUrl(String url) {
         this.url = url;
     }
 
-    public String getImageURL() {
+    public String getImage_url() {
         return image_url;
     }
 
-    public void setImageURL(String image_url) {
+    public void setImage_url(String image_url) {
         this.image_url = image_url;
     }
 
@@ -119,19 +150,19 @@ public class AnimeInfo {
         this.type = type;
     }
 
-    public String getStartDate() {
+    public String getStart_date() {
         return start_date;
     }
 
-    public void setStartDate(String start_date) {
+    public void setStart_date(String start_date) {
         this.start_date = start_date;
     }
 
-    public String getEndDate() {
+    public String getEnd_date() {
         return end_date;
     }
 
-    public void setEndDate(String end_date) {
+    public void setEnd_date(String end_date) {
         this.end_date = end_date;
     }
 

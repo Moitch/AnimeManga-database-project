@@ -10,7 +10,10 @@ import java.nio.file.Paths;
 
 public class APIUtilities {
     public static void getAnimeFromSearch(String searchText) throws IOException, InterruptedException {
-        String searchURL = "https://jikan1.p.rapidapi.com/search/anime?q="+searchText;
+
+        String newSearchText = searchText.replaceAll(" ", "%20");
+
+        String searchURL = "https://jikan1.p.rapidapi.com/search/anime?q="+newSearchText;
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -19,6 +22,7 @@ public class APIUtilities {
                 .header("x-rapidapi-host", "jikan1.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
-        HttpResponse<Path> response = client.send(request, HttpResponse.BodyHandlers.ofFile(Paths.get("./JSONFiles/animeSearch.json")));
+        HttpResponse<Path> response = client.send(request, HttpResponse.BodyHandlers.ofFile(Paths.get("./src/JSONFiles/animeSearch.json")));
+        System.out.println(newSearchText);
     }
 }

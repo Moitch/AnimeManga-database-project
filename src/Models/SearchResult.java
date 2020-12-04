@@ -18,4 +18,5 @@ public class SearchResult {
     public void setAnimes(AnimeInfo[] animes) {
         this.animes = animes;
     }
+
 }
