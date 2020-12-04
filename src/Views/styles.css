@@ -24,3 +24,19 @@
 
 }
 
+.list-cell{
+    -fx-background-color: -fx-table-cell-border-color, #494949;
+
+}
+
+.list-view{
+    -fx-background-radius: 6px;
+    -fx-border-width: 6px;
+    -fx-border-radius: 6px;
+    -fx-border-color: black;
+    -fx-border-style: solid;
+
+}
+
+
+
